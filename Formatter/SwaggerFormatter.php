@@ -190,7 +190,7 @@ class SwaggerFormatter implements FormatterInterface
             'info' => array(),
             'host' => $_SERVER['HTTP_HOST'],
             'basePath' => '/',
-            'schemes'=> array('http'),
+            'schemes'=> array('http','https'),
             'consumes'=> array('application/json'),
             'produces'=> array('application/json'),
             'paths' => array(),
